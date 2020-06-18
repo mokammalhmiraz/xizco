@@ -315,6 +315,10 @@
         padding-top: 35px;
     }
 
+    .work_btns {
+        flex-direction: column;
+    }
+
     .single_work .overlay {
         width: 90.5%;
     }
@@ -329,6 +333,38 @@
 
     .single_work .overlay h2 {
         font-size: 20px;
+    }
+
+    .counter_item {
+        padding: 20px 0;
+    }
+
+    .clint_area .section_head span::before {
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .section_head {
+        text-align: center;
+    }
+
+    .faq_header h4 {
+        font-size: 12px;
+        line-height: 56px !important;
+    }
+
+    .corporate_area .section_head h2 {
+        padding-right: 0;
+        font-size: 25px;
+    }
+
+    .corporate_area .section_head p {
+        padding-bottom: 25px;
+    }
+
+    .corporate_area .section_head .theme_btn {
+        right: 10%;
+        transform: translate(-50%, -50%);
     }
 
     .faq-body {

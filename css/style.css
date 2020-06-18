@@ -157,7 +157,7 @@ h6 {
     height: 28px;
     border-radius: 50%;
     line-height: 29px;
-    padding-right: 6.5px;
+    text-align: center;
     transition: all .5s linear;
 }
 
@@ -1068,7 +1068,7 @@ h6 {
 	color: #fff;
 	padding: 7px 9px;
 	position: absolute;
-	top: 38.4%;
+	top: 39%;
 	right: 6.6%;
 	transform: translateY(50%);
 	font-size: 14px;
@@ -1081,10 +1081,11 @@ h6 {
 	width: 30px;
 	height: 30px;
 	border-radius: 50%;
-	line-height: 29px;
+	line-height: 30px;
 	padding-right: 6.5px;
 	transition: all .5s linear;
 	margin-right: 5px;
+	text-align: center;
 }
 .footer_area .about .about_icon a i {
 	padding-left: 7px;

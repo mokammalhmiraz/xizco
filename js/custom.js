@@ -22,8 +22,20 @@ $(function () {
         adaptiveHeight: true
     });
 
-    // work mixitup
-    // var mixer = mixitup('.mixitup_active');
+    // work isotopes
+    var $grid = $('.work_active').isotope({
+        // options
+        itemSelector: '.single_items',
+        layoutMode: 'fitRows'
+    });
+
+    // filter items on button click
+    $('.work_btns').on('click', 'button', function () {
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({
+            filter: filterValue
+        });
+    });
 
     // work venobox
     $('.work_item').venobox({
